@@ -1,3 +1,3 @@
 # CalculadoraCsharp
 
-Calculadora en C# 
+Calculadora en C# Utilizando WPF 
