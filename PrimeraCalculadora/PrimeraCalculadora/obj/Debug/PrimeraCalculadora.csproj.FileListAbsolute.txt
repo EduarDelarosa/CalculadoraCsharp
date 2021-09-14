@@ -1,0 +1,15 @@
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\bin\Debug\PrimeraCalculadora.exe.config
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\bin\Debug\PrimeraCalculadora.exe
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\bin\Debug\PrimeraCalculadora.pdb
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.csprojAssemblyReference.cache
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\MainWindow.g.cs
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\App.g.cs
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora_MarkupCompile.cache
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora_MarkupCompile.lref
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\MainWindow.baml
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.g.resources
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.Properties.Resources.resources
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.csproj.GenerateResource.cache
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.exe
+C:\Users\EDUARD\source\repos\PrimeraCalculadora\PrimeraCalculadora\obj\Debug\PrimeraCalculadora.pdb

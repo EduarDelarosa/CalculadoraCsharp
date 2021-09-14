@@ -1,0 +1,71 @@
+﻿<Window x:Class="PrimeraCalculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrimeraCalculadora"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="451" Width="345">
+    <Grid Background="#FF474343">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="235*"/>
+                <ColumnDefinition Width="102*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Content="Estandar" Grid.ColumnSpan="2" FontWeight="Bold" FontSize="16"/>
+            <TextBox x:Name="tbx2" Grid.Row="1" Grid.ColumnSpan="2" IsReadOnly="True" FontSize="20" FontWeight="Bold" TextAlignment="Right" Background="#FFD1D1D1"/>
+            <TextBox x:Name="tbx1" Grid.Row="2" FontSize="20" FontWeight="Bold" TextAlignment="Right" IsReadOnly="True" Grid.ColumnSpan="2" Background="#FFDADADA" OpacityMask="Black"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnBorrar" Grid.Column="1" FontSize="20" FontWeight="Bold" Content="←" Click="btnBorrar_Click"/>
+            <Button x:Name="btnEntre" Grid.Column="2" Content="/" FontWeight="Bold" FontSize="20" Click="btnEntre_Click"></Button>
+            <Button x:Name="btnN7" Grid.Row="1" Content="7" FontSize="20" FontWeight="Bold" Click="btnN7_Click"></Button>
+            <Button x:Name="btnN4" Grid.Row="2" Content="4" FontSize="20" FontWeight="Bold" Click="btnN4_Click"></Button>
+            <Button x:Name="btnN1" Grid.Row="3" Content="1" FontSize="20" FontWeight="Bold" Click="btnN1_Click"></Button>
+            <Button x:Name="btnLimpiar" Content="C" FontSize="20" FontWeight="Bold" Click="btnLimpiar_Click"></Button>
+            <Button x:Name="btnN8" Grid.Column="1" Grid.Row="1" Content="8" FontSize="20" FontWeight="Bold" Click="btnN8_Click"></Button>
+            <Button x:Name="btnN5" Grid.Column="1" Grid.Row="2" Content="5" FontSize="20" FontWeight="Bold" Click="btnN5_Click"></Button>
+            <Button x:Name="btnN2" Grid.Column="1" Grid.Row="3" Content="2" FontWeight="Bold" FontSize="20" Click="btnN2_Click"/>
+            <Button x:Name="btnN0" Grid.Row="4" Content="0" FontSize="20" FontWeight="Bold" Click="btnN0_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="btnN9" Grid.Column="2" Grid.Row="1" Content="9" FontSize="20" FontWeight="Bold" Click="btnN9_Click"></Button>
+            <Button x:Name="btnN6" Grid.Column="2" Grid.Row="2" Content="6" FontSize="20" FontWeight="Bold" Click="btnN6_Click"></Button>
+            <Button x:Name="btnN3" Grid.Column="2" Grid.Row="3" Content="3" FontWeight="Bold" FontSize="20" Click="btnN3_Click"></Button>
+            <Button x:Name="btnPunto" Grid.Column="2" Grid.Row="4" Content="." FontSize="20" FontWeight="Bold" Click="btnPunto_Click"></Button>
+            <Button x:Name="btnPor" Grid.Column="3" Content="X" FontWeight="Bold" FontSize="20" Click="btnPor_Click"/>
+            <Button x:Name="btnMenos" Grid.Column="3" Grid.Row="1" Content="-" FontWeight="Bold" FontSize="20" Click="btnMenos_Click"></Button>
+            <Button x:Name="btnMas" Grid.Column="3" Grid.Row="2" Content="+" FontWeight="Bold" FontSize="16" Click="btnMas_Click"/>
+            <Button x:Name="btnIgual" Grid.Column="3" Grid.Row="3" Content="=" FontSize="20" FontWeight="Bold" Click="btnIgual_Click" Grid.RowSpan="2"></Button>
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>
